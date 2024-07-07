@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "symfony/mailer": "^7.0"
+    }
+}

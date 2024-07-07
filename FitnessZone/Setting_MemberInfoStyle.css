@@ -1,0 +1,181 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 31, 2024, 2:49:27 PM
+    Author     : Cheska-PC
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 12 14, 23, 9:43:51 PM
+    Author     : Cheska-PC
+*/
+body{
+    background-image: url(hexagons.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.Box{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    width: 800px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url(gray.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: -10px;
+    width: 800px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+#rel {
+    width: 150px;
+    margin-right: 10px; 
+}
+
+#otherInput {
+    display: none;
+    width: 200px;
+}
+
+#M_type{
+    width: 150px;
+    margin-right: 10px; 
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.Section{
+    display: block;
+}
+
+:root {
+  --ff-catamaran: "Catamaran", sans-serif;
+  --ff-rubik: "Rubik", sans-serif;
+}
+
+.Section .tag{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--ff-Rubik);
+    color: black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Section label{
+    margin: 15px;
+    font-family: var(--ff-catamaran);
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.Section input{
+    width: 250px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 20px 0;
+    margin-top: 0px;
+    border: 0;
+    box-shadow: 10px 10px 8px #888888;
+    border-radius:10px;
+    position: relative;
+    outline-color: rgb(50,205,50);
+}
+
+
+.Section option[disabled] {
+    color: grey;
+}
+
+.Section input::placeholder {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    padding: 10px; 
+    color: #999; 
+    font-size: 10px;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Section select{
+    width: 200px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 0;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 8px #888888;
+    outline-color: rgb(50,205,50);
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.Section .done-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Garamond;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin: 15px 0;
+    margin-top: 0px;
+    border: 1px solid gray;
+    border-radius:7px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.invalid-input {
+    outline: 3px solid red !important;
+}
+
+
